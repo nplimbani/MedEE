@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/pt_lg1_am"
+            android:icon="@mipmap/appintment"
+            android:title="Appointment" />
+
+        <item
+            android:id="@+id/pt_lg1_ob"
+            android:icon="@mipmap/blood"
+            android:title="Order Blood" />
+        <item
+            android:id="@+id/pt_lg1_om"
+            android:icon="@mipmap/medicine"
+            android:title="Order Medicine" />
+
+        <item
+            android:id="@+id/pt_lg1_editp"
+            android:icon="@mipmap/editprofile"
+            android:title="Edit profile" />
+        <item
+            android:id="@+id/pt_lg1_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>
